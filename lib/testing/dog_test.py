@@ -2,6 +2,7 @@ import os
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
+from models import Dog
 
 from dog import (
     create_table,
